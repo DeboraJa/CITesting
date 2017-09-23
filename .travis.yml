@@ -8,3 +8,5 @@ node_js:
 # please update this section to your needs!
 notifications:
 irc: "irc.freenode.org#travis"
+
+before_script: chmod 0777 ./node_modules/.bin/mocha
