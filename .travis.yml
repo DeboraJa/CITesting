@@ -2,7 +2,6 @@ language: node_js
 
 # test on node.js version: 0.6 and 0.8
 node_js:
-  - 0.6
   - 0.8
 
 before_script: chmod 0777 ./node_modules/.bin/mocha
