@@ -4,9 +4,7 @@ language: node_js
 node_js:
   - 0.8
 
-# configure notifications (email, IRC, campfire etc)
-# please update this section to your needs!
-notifications:
-irc: "irc.freenode.org#travis"
+# notifications:
+# irc: "irc.freenode.org#travis"
 
 before_script: chmod 0777 ./node_modules/.bin/mocha
